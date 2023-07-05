@@ -1,4 +1,4 @@
-# Credit Card Validator App
+# Credit Card Validator App (React + TypeScript + NodeJS)
 
 ## How to run the application
 
