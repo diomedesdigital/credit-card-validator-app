@@ -14,6 +14,8 @@ const MyComponent: React.FC = () => {
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value;
+    
+    // Adding regex to make sure that only numerical values are added to input. 
     if (value === "" || /^[0-9]+$/.test(value)) {
       setInputValue(value);
     }

@@ -21,7 +21,7 @@ server.get('/', (req, res) => {
     res.send('Welcome to the Credit Card Validator Server');
 });
 
-// Post card number to check if it's valid.
+// Post encrypted card number to check if it's valid.
 server.post('/credit-card', (req, res) => {
 
     const data = req.body;
